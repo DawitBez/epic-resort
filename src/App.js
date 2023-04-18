@@ -1,21 +1,18 @@
-import Footer from './components/Footer'
+import Cards from './components/Cards'
+import Category from './components/Category'
+import Food from './components/Foods'
 import Hero from './components/Hero'
-import { ImageSlider } from './components/ImageSlider'
 import Navbar from './components/Navbar'
-import { Offers } from './components/Offers'
-import Plan from './components/Plan'
-import { Rooms } from './components/Rooms'
-
 export default function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Offers />
-      <Plan />
-      <Rooms />
-      <ImageSlider />
-      <Footer />
+      <div>
+        <Navbar />
+        <Hero />
+        <Cards />
+        <Food />
+        <Category />
+      </div>
     </>
   )
 }
